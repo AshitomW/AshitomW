@@ -80,7 +80,7 @@ delete trust_issues;
 - Plot twist: somehow also shipping frontend/mobile apps — turns out `div` is scarier than a segfault
 
 <div align="center">
-<img src="https://media.giphy.com/media/l2JeaMxlD3nqrxbwo/giphy.gif" width="240" alt="confused shrug meme style"/>
+<img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="240" alt="confused shrug meme style"/>
 <br/>
 <sub><i>me, centering a div after a day of zeroing out memory</i></sub>
 </div>
