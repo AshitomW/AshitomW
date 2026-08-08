@@ -98,6 +98,41 @@ delete trust_issues;
 
 ---
 
+## Machine Learning, or "Advanced Guessing"
+
+- I train neural networks the way I train myself: badly, at 2am, hoping it converges
+- My loss function and my will to live are both trending downward, which I'm told is good
+- I build Graph Neural Networks, which is just a fancy way of saying I made my nodes gossip with their neighbors until they agreed on something
+- Message passing: because apparently even my code has more functional communication than most group chats
+- I've studied swarm intelligence long enough to know ants have better project management skills than most of my sprints
+- Stigmergy is just "leave a note for the next guy" but make it pheromones
+- My particles converge on a global optimum faster than I converge on a decision about what to eat for dinner
+- Somewhere out there my model is 95% confident about something completely wrong, much like me in every meeting
+
+```python
+class Me(nn.Module):
+    def forward(self, self_doubt, neighbors):
+        # aggregate opinions from everyone around me, GNN-style
+        consensus = aggregate(neighbors.opinions)
+        # update my own beliefs based on peer pressure
+        self_doubt = self_doubt + consensus - self.confidence
+        return self_doubt  # converges to infinity, never to a global optimum
+
+while loss > acceptable_levels_of_self_doubt:
+    optimizer.step()
+    self.step_back_and_question_everything()
+
+print("model converged" if lucky else "reinitializing weights, and my will to live")
+```
+
+<div align="center">
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="280" alt="brain overload gif"/>
+<br/>
+<sub><i>me and my coworkers, functioning as a single emergent swarm, mostly by accident</i></sub>
+</div>
+
+---
+
 ## Skills, Self-Certified & Unverified
 
 ```
@@ -106,6 +141,7 @@ Rust:                borrowing things and never giving them back (the irony)
 C++:                 pointer whisperer, memory leak philosopher
 Go:                  concurrency enjoyer, race condition survivor
 R:                   turning "it depends" into a p-value
+Machine Learning:    convincing a computer to guess things, professionally
 Networking:          I can smell a misconfigured firewall from two subnets away
 Sleep Schedule:      404 not found
 ```
