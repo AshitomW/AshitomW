@@ -25,7 +25,6 @@ Coffee level: CRITICAL — page immediately
 
 ## Zero Trust, Maximum Suspicion
 
-- Relationship status: **mutually authenticated, TLS-encrypted, and still somehow complicated**
 - I zero out memory before it even thinks about betraying me
 - I sniff out network threats the way my mom sniffs out that I "definitely cleaned my room"
 - Zero trust means even *you*, reading this README, need to prove who you are
